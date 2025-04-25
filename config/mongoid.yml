@@ -1,0 +1,25 @@
+development:
+  clients:
+    default:
+      uri: <%= ENV['MONGODB_CONNECTION_STRING'] %>
+qa:
+  clients:
+    default:
+      uri: <%= ENV['MONGODB_CONNECTION_STRING'] %>
+homologation:
+  clients:
+    default:
+      uri: <%= ENV['MONGODB_CONNECTION_STRING'] %>
+production:
+  clients:
+    default:
+      uri: <%= ENV['MONGODB_CONNECTION_STRING'] %>
+test:
+  clients:
+    default:
+      database: cp_challenge_test
+      hosts:
+        - localhost:27017
+      options:
+        read:
+          mode: :primary
