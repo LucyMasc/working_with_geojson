@@ -25,6 +25,7 @@ gem "kamal", require: false
 gem "thruster", require: false
 
 gem 'mongoid'
+gem 'dotenv-rails'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 # gem "rack-cors"
